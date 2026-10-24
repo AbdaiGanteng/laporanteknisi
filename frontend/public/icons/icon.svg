@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Laporan Teknisi">
+  <rect width="512" height="512" rx="96" fill="#0f766e" />
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="30">
+    <path d="M256 154v94M256 248 160 352M256 248l96 104" />
+    <circle cx="256" cy="128" r="42" fill="#0f766e" />
+    <circle cx="144" cy="368" r="42" fill="#0f766e" />
+    <circle cx="368" cy="368" r="42" fill="#0f766e" />
+  </g>
+</svg>
