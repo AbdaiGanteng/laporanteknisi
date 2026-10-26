@@ -1,21 +1,18 @@
-import InstallationForm from './components/InstallationForm.jsx';
+import './App.css'
+import { Routes, Route,} from 'react-router-dom'
+import Teknisi from './pages/teknisi.jsx'
+import Login from './pages/login.jsx'
+import Dashboard from './pages/dashboard.jsx'
 
-function App() {
+export default function App() {
   return (
-    <div className="app-shell">
-      <header className="app-header">
-        <p className="app-eyebrow">Operasional Teknisi</p>
-        <h1>Form Pemasangan Baru</h1>
-        <p className="app-description">
-          Lengkapi data pelanggan, hasil pemasangan, dan foto bukti dari lokasi.
-        </p>
-      </header>
+     <Routes>
+      
+      <Route path='/' element={<Login/>} ></Route>
+      <Route path='/form-teknisi' element={<Teknisi/>} ></Route>
+      <Route path='/dashboard' element={<Dashboard/>} ></Route>
 
-      <main>
-        <InstallationForm />
-      </main>
-    </div>
+    </Routes>
   );
 }
 
-export default App;
